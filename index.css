@@ -1,0 +1,124 @@
+.gradient-background {
+    background: linear-gradient(300deg, #f0718c, #da81cb, #86abd4);
+    background-size: 200% 200%;
+    animation: gradient-animation 18s ease infinite;
+    width :1400px;
+    height : 430px;
+    
+    
+    
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .image{
+    float: right;
+    height: 375px;
+    margin-right: 300px;
+    margin-top: 5px;
+    display:inline-block;
+  }
+
+
+  .h1{
+    display:inline-block;
+    margin-top: 110px;
+    margin-left: 200px;
+    font-size: 50px;
+  }
+
+
+  .nav{
+    margin-left : 1000px;
+  }
+
+
+  .link{
+     margin : 10px 
+  }
+
+
+  .h4{
+    display:inline
+  }
+
+
+  .di{
+     display:inline-block;
+     margin:65px
+  }
+
+  .p{
+     margin-left:10px;
+  }
+
+
+  .svg{
+    display:inline
+  }
+
+  .pp{
+     margin-left:115px;
+     font-size: 35px ;
+     font-weight: bold;
+     justify: center;
+  }
+
+  .img{
+      border-radius: 50%;
+      margin-left:520px;
+      width: 200px;
+  }
+
+  .h5{
+    margin-left:600px
+  }
+  .h3{
+    margin-left:330px;
+    margin-top: 100px;
+    font-size: 50px;
+  }
+
+  .div{
+     display:inline-block;
+     margin-left:115px;
+     margin-top: 30px;
+     border: 2px solid gray;
+     box-shadow: inset;
+     
+  }
+
+  .div1{
+     background-color: rgb(236, 236, 236);
+     border: 2px solid gray;
+     padding-left:40px
+  }
+
+  .div2{
+      padding-left:35px
+  }
+  .div3{
+    background-color: rgb(236, 236, 236);
+    width: 250px;
+    height:50px;
+    padding-left:0;
+    margin-left: 0;
+   
+
+  }
+  .nav2{
+    margin-left : 500px;
+    margin-top: 150px;
+    padding-top: 250px;
+  }
