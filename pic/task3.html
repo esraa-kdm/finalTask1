@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        
+        body{background-color:#FFC5C5;color:#AF2655;font-size:20px}
+ 
+        fieldset{background:#C7DCA7;
+             border:2px  solid;
+             border-color:#FFEBD8;
+             padding :10px;
+             margin-bottom:20px;}                 
+        legend{background-color:#FFEBD8;
+         border:1px solid;
+         border-color:#FFEBD8;
+         color:#AF2655;}
+         lable{margin-bottom:10px;display:block;}
+        table{
+            background-color:#FFEBD8;
+            border:4px solid;
+            border-color:#AF2655;
+            color:#AF2655;
+        } 
+        
+        td{
+            border:4px solid;
+            border-color:#FFC5C5; 
+        }
+   </style>
+    <head>
+        <meta charset="utf-8">
+        <meta name="view port"  content="width-device-width ,  initial-scale =1.5">
+        <title>table and form</title>
+    </head>
+    <body>
+             <form>
+                <fieldset>
+                    <legend> Personal Information</legend>
+                    <lable for="text">Full Name : </lable>
+                    <input type="text" name="text" > <br> <br>
+
+                    <lable for="email">Email: </lable>
+                    <input type="email" name="email"> <br><br>
+
+                    <lable for="number">Phone number: </lable>
+                    <input type="number" name="number"><br><br>
+
+                    <lable for="add">Address: </lable>
+                    <input type="Address" name="add"><br><br>
+
+                    <lable for="age">Age : </lable>
+                    <input type="date" name="age"><br><br>
+
+                    <lable for="gender">Gender: </lable>
+                     <select name="gender" >
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                     </select>
+                </fieldset>
+                <fieldset>
+                    <legend>your Favourites</legend>
+                    <lable for="app"> select your favourt application : </lable>
+                    <input type="radio" name="app" > Snapchat <br>
+                    <input type="radio" name="app" > Instgrame <br>
+                    <input type="radio" name="app" > Facebook <br>
+                    <input type="radio" name="app" > X <br>
+                    <hr>
+                    <lable for="lang"> select your favourt programming language :</lable> 
+                    <input type="radio" name="lang" > Pyhton <br>
+                    <input type="radio" name="lang" > Java <br>
+                    <input type="radio" name="lang" > C++ <br>
+                    <input type="radio" name="lang" > C# <br>
+                    <hr>
+                    <lable for="os"> select your favourt Opreating system : </lable>
+                    <input type="checkbox" name="os" value="windows"> windows <br>
+                    <input type="checkbox" name="os" value="Mac Os "> Mac Osx <br>
+                    <input type="checkbox" name="os" value="linux"> linux <br>
+                </fieldset>
+             </form>
+              
+             <table>
+                <thead>
+                   <th> IT Career</th>
+                   <th> description</th>
+                </thead>
+                <tbody>
+                   <tr> 
+                       <td>Computer support</td>
+                       <td>roles that support many different aspects of computer operations.</td>
+                   </tr>
+                   <tr>
+                       <td>Cybersecurity</td>
+                       <td> protecting computer systems, devices, and sensitive information from malware, unauthorized access, damage, and data breaches. </td>
+                   </tr>
+                   <tr>
+                       <td>Networks and systems</td>
+                       <td>work with network-related tasks or hardware, and systems professionals work among servers and computer systems. They may have overlapping roles</td>
+                   </tr>
+                   <tr>
+                      <td>Web development</td>
+                      <td> create computer programs that are used to accomplish any number of tasks—your internet browser, music streaming service, and online video conference app are all examples of software.</td>
+                   </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+             </table>
+
+
+    </body>
+</html>
