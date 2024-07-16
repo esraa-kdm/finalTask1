@@ -1,9 +1,139 @@
-<h1>Contact Us</h1>
-<p>Tel: +123456789</p>
-<p>Email: me@gmail.com</p>
-<p>Address:</p>
-<p>
-  123 North Street<br />
-  Some City<br />
-  Some Country <br />
-</p>
+<!DOCTYPE html>
+<html>
+  <style>
+      #div1 {
+        background-color: rgb(241, 126, 226);
+      }
+
+      #div2{
+         margin-left: 120px;
+         margin-top: 100px;
+         display: inline-block;
+      }
+      
+      #div3{
+         margin-left: 100px;
+         margin-top: 100px;
+         display: inline-block;
+      }
+
+      #div4{
+         margin-left: 100px;
+         margin-top: 100px;
+         display: inline-block;
+      }
+
+      #div5{
+        margin-left: 50px;
+        margin-top: 100px;
+        width: 400px;
+        
+      }
+      #div6{
+        margin-left: 50px;
+        
+        width: 400px;
+      }
+      
+      #btn{
+         background-color:  rgb(211, 142, 202);
+         text-align: center ;
+         width: 255px;
+         height:55px ;
+         padding-left: 0p;
+      }
+      img{
+        display: inline;
+      }
+
+      #btn2{
+         background-color:  rgb(211, 142, 202);
+         text-align: center ;
+         width: 150px;
+         height:40px ;
+         padding-left: 0p;
+      }
+    
+
+  </style>
+  <head>
+   <title> Contact us </title>
+   <meta charset="utf-8">
+   <meta name="view port"  content="width-device-width ,  initial-scale =1.5">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <header >
+      <nav class="navbar navbar-expand-lg bg-body-tertiary"  id="div1" >
+        <div class="container-fluid" id="div1" >
+          <img id="img" src="pic\Layer 1.png" width="20px" heigt="20px">
+          <a class="navbar-brand" href="#">TinDog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="C:\Users\DELL\Desktop\Tasks\finalTask1\index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://tinder.com/download">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="c:\Users\DELL\Desktop\Tasks\finalTask1\support.html">Support</a></li>
+                  <li><a class="dropdown-item" href="c:\Users\DELL\Desktop\Tasks\finalTask1\about.html">About</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="card" style="width: 18rem;" id="div2">
+        <img src="pic\388fd591b0d78c5e3d70176760bce0b2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button class="card-text" id="btn">Account & authentication issues</button>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" id="div3">
+        <img src="pic\c0f0ee3d0d0ff2a151bf42ef4b1449a2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button class="card-text" id="btn">App issues</button>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;" id="div4">
+        <img src="pic\aca867a9f5d1d4764a22ee3649f90786.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button class="card-text" id="btn">Download & installation issues</button>
+        </div>
+      </div>
+      <div style="display:inline-block;">
+         <div class="mb-3" id="div5">
+            <label for="exampleFormControlInput1" class="form-label">Email address :</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" id="em">
+         </div>
+         <h1 style="display: inline; margin-left: 750px; color: rgb(136, 136, 136);">How can we help you ?</h1>
+         <div class="mb-3" id="div6">
+            <label for="exampleFormControlTextarea1" class="form-label"> description your issues :</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1 " rows="3" ></textarea><br>
+            <button value="submit" id="btn2"> submit</button>
+         </div>
+       </div>
+    </main>
+    
+  </body>
+</html>
